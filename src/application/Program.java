@@ -1,5 +1,6 @@
 package application;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -32,7 +33,11 @@ public class Program {
 		list = sellerDao.findByDepartment(dep);
 		for (Seller lists : list) {
 			System.out.println(lists);
-
 		}
+		
+		System.out.println("=== TEST 4: seller INSERT ====");
+		Seller newSeller = new Seller(null, "GREG", "GREG@EMAIL", new Date(), 4000.0, dep);
+		sellerDao.insert(newSeller);
+		System.out.println("Iserted! New id = " + newSeller.getId());
 	}
 }
