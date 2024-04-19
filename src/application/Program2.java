@@ -18,11 +18,15 @@ public class Program2 {
 		
 		DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 		
-		System.out.println("=== TEST 1: seller INSERT ====");
+		System.out.println("=== TEST 1: seller findById ====");
+		Department findDepartment = departmentDao.findById(1);
+		System.out.println(findDepartment);
+		
+		/*System.out.println("=== TEST 2: seller INSERT ====");
 		Department newDepartment = new Department(7, "HR");
 		departmentDao.insert(newDepartment);
 		System.out.println("Inserted: New Id = " + newDepartment.getId());
-		
+		*/
 		
 		sc.close();
 
