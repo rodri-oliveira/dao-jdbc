@@ -16,7 +16,7 @@ Para executar este projeto localmente, você precisa ter o Java e o Maven instal
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/your-username/DB-DAO-Project.git
+   git clone https://github.com/rodri-oliveira/dao-jdbc.git
 ## Uso
 
 Esta aplicação permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) em duas entidades: `Department` e `Seller`. Ela fornece funcionalidades como inserção, atualização, exclusão e busca de registros no banco de dados.
