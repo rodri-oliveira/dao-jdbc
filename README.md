@@ -19,7 +19,7 @@ Para executar este projeto localmente, você precisa ter o Java e o Maven instal
    git clone https://github.com/rodri-oliveira/dao-jdbc.git
 ## Uso
 
-Esta aplicação permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) em duas entidades: `Department` e `Seller`. Ela fornece funcionalidades como inserção, atualização, exclusão e busca de registros no banco de dados.
+Esta aplicação permite realizar operações CRUD (CREATE, READ, UPDADTE, DELETE) em duas entidades: `Department` e `Seller`. Ela fornece funcionalidades como inserção, atualização, exclusão e busca de registros no banco de dados.
 
 ## Estrutura do Projeto
 
